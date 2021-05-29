@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from "./Components/Login";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import Signup from "./Components/Signup";
 import NotFound from "./Components/404/Notfound";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
