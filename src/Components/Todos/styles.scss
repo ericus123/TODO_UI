@@ -1,0 +1,23 @@
+.todos {
+  margin: 2rem;
+}
+.todos-title {
+  text-align: center;
+  font-weight: bolder;
+  margin: 2rem;
+  font-size: 2em;
+}
+.todos-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.todos-icons {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+.add-todo {
+  text-align: center;
+  justify-content: center;
+}
